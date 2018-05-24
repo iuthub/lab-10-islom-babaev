@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 10</title>
+</head>
+<body>
+	<h1 style="text-align: center;">Lab 10: Pizza Order Form</h1>
+	<h3 style="text-align: right;">Abu-Bakr Jabbarov</h3>
+	<h3 style="text-align: right;">U1610012</h3>
+	<hr>
+	<fieldset>
+		# of Small Pizzas <input type="text" id="small" /><br />
+		# of Medium Pizzas <input type="text" id="medium" /><br />
+		# of Large Pizzas <input type="text" id="large" /><br />
+		Tip:
+		<label><input value="10" type="radio" id="ten" name="tip" /> 10%</label>
+		<label><input value="15" type="radio" id="fifteen" name="tip" checked="checked" /> 15%
+		</label>
+		<label><input type="radio" id="twenty" name="tip" /> 20%</label> <br />
+		<button value="20" id="submit">Calculate Order</button>
+		</fieldset>
+		<p>
+		Cost of order: <span id="price"></span>
+		<p>
+	<script src="pizza.js"></script>
+</body>
+</html>
